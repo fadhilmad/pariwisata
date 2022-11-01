@@ -1,0 +1,301 @@
+ERROR - 2022-10-31 10:56:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-10-31 11:01:40 --> Class 'CodeIgniter\Database\pgsql\Connection' not found
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pgsql', 'CodeIgniter\\Dat...', Array)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(149): db_connect(NULL)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#14 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 D:\APLIKASI\laragon\laragon\www\pariwisata\spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+CRITICAL - 2022-10-31 11:02:20 --> Class 'CodeIgniter\Database\pgsql\Connection' not found
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pgsql', 'CodeIgniter\\Dat...', Array)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(149): db_connect(NULL)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#14 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 D:\APLIKASI\laragon\laragon\www\pariwisata\spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+CRITICAL - 2022-10-31 11:02:54 --> Class 'CodeIgniter\Database\pgsql\Connection' not found
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pgsql', 'CodeIgniter\\Dat...', Array)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(23): CodeIgniter\Model->__construct()
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#9 {main}
+ERROR - 2022-10-31 23:09:50 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:09:50 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:11:10 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:11:10 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:12:24 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:12:24 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:13:20 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:13:20 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:17:35 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:17:35 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:17:42 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:17:42 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:23:00 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:23:00 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:27:03 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:27:03 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:27:16 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:27:16 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:28:24 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:28:24 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:29:37 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:29:37 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\APLIKASI\laragon\laragon\www\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\APLIKASI\laragon\laragon\www\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\APLIKASI\laragon\laragon\www\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\APLIKASI\\lar...')
+#11 {main}
+ERROR - 2022-10-31 23:40:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-10-31 23:40:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#4 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-10-31 23:41:18 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:41:18 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-10-31 23:45:34 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-10-31 23:45:34 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#4 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-10-31 23:46:35 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-10-31 23:46:35 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#4 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-31 11:47:14 --> Class 'CodeIgniter\Database\pgsql\Connection' not found
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pgsql', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(23): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#5 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-10-31 23:48:43 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:48:43 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-10-31 23:48:46 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-10-31 23:48:46 --> Table 'db_pariwisata.s1g_pariwisata' doesn't exist
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

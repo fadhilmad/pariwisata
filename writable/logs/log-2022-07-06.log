@@ -1,0 +1,46 @@
+CRITICAL - 2022-07-06 10:04:13 --> Trying to get property 'slug' of non-object
+#0 C:\xampp\htdocs\pariwisata-lamongan\app\Views\admin\kategori\list.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/kategori/...', Array, true)
+#4 C:\xampp\htdocs\pariwisata-lamongan\app\Controllers\Kategori.php(24): view('admin/kategori/...', Array)
+#5 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pariwisata-lamongan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-06 19:24:47 --> Too few arguments to function App\Models\ModelGet::cek_judul(), 1 passed in C:\xampp\htdocs\pariwisata-lamongan\app\Controllers\Kategori_acara.php on line 30 and exactly 2 expected
+#0 C:\xampp\htdocs\pariwisata-lamongan\app\Controllers\Kategori_acara.php(30): App\Models\ModelGet->cek_judul(Array)
+#1 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kategori_acara->add_kategori_acara()
+#2 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori_acara))
+#3 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pariwisata-lamongan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-06 22:55:58 --> Undefined variable: title
+#0 C:\xampp\htdocs\pariwisata-lamongan\app\Views\main\template\head.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('main/template/h...', Array, true)
+#4 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('main/login', Array, true)
+#5 C:\xampp\htdocs\pariwisata-lamongan\app\Controllers\UserLogin.php(20): view('main/login')
+#6 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserLogin->index()
+#7 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserLogin))
+#8 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pariwisata-lamongan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-06 23:18:28 --> Undefined index: icon
+#0 C:\xampp\htdocs\pariwisata-lamongan\app\Views\admin\template\template.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 348, Array)
+#1 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/home', Array, true)
+#5 C:\xampp\htdocs\pariwisata-lamongan\app\Controllers\Home.php(25): view('admin/home', Array)
+#6 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pariwisata-lamongan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pariwisata-lamongan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

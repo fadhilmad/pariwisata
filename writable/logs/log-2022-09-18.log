@@ -1,0 +1,30 @@
+CRITICAL - 2022-09-18 09:28:37 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\pariwisata-lamongan-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\pariwisata-lamongan-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-09-18 09:30:02 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\pariwisata-lamongan-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\pariwisata-lamongan-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-09-18 09:31:07 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\pariwisata-lamongan-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\pariwisata-lamongan-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-09-18 09:34:05 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\pariwisata\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+ERROR - 2022-09-18 19:50:50 --> Table 's1g_lamongan.s1g_pariwisata' doesn't exist
+CRITICAL - 2022-09-18 19:50:50 --> Table 's1g_lamongan.s1g_pariwisata' doesn't exist
+#0 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pariwisata\app\Models\PariwisataModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pariwisata\app\Controllers\Dashboard.php(41): App\Models\PariwisataModel->get_wisata()
+#6 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pariwisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pariwisata\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
